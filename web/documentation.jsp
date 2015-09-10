@@ -10,7 +10,7 @@
     <h1>Github links</h1>
     <a href="https://github.com/hardboilr/AdvancedChat">Advanced chat</a>
     <br>
-    <a href="#">Advanced chat webapp</a>
+    <a href="https://github.com/hardboilr/AdvancedChatWebApp">Advanced chat webapp</a>
 </div>
 
 <div class="container-fluid">
