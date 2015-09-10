@@ -12,6 +12,10 @@
 </div>
 
 <div class="container-fluid">
+    <h2>INSERT PIC OF GUI HERE!</h2>
+</div>
+
+<div class="container-fluid">
     <h3>Client</h3>
     <a href="AdvancedChat.jar" class="btn btn-info" role="button">Download client</a>
 </div>
