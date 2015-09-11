@@ -8,9 +8,9 @@
 
 <div class="container-fluid">
     <h1>Github links</h1>
-    <a href="https://github.com/hardboilr/AdvancedChat">Advanced chat</a>
+    <a href="https://github.com/hardboilr/AdvancedChat" target="_blank">Advanced chat</a>
     <br>
-    <a href="https://github.com/hardboilr/AdvancedChatWebApp">Advanced chat webapp</a>
+    <a href="https://github.com/hardboilr/AdvancedChatWebApp" target="_blank">Advanced chat webapp</a>
 </div>
 
 <div class="container-fluid">
@@ -25,21 +25,21 @@
     <p>Sebastian made the client unit test.<br>
         Tobias made the website.<br>
         Jonas made the parseusercommands test. <br>
-        Everybody has contributed equally to the making of the server and client, this was all made looking over each other?s shoulder, and we believe that we all deserve the same amount of study points.
+        Everybody has contributed equally to the making of the server and client, this was all made looking over each other's shoulder, and we believe that we all deserve the same amount of study points.
     </p>
     <h3>Testing</h3>
     <h4>jUnit tests</h4>
     <p>An image of the test results from JUnit<br>
-        <img src="jUnit.PNG" class="img-responsive" alt="Picture of jUnit tests"/>
+        <img src="pictures/jUnit.png" class="img-responsive" alt="Picture of jUnit tests"/>
         If you wanna run the jUnit test yourself, you might need to add jUnit 4.12 as a library, it is placed in the netbeansproject, in the folder library</p>
     <h4>Testing with another server and client</h4>
-    <p>We have tested our server and client with another goups server and client. It worked well, we could connect to their server with our client and vice versa. <br>
-        All the messages we sent went through without trouble.
+    <p>We have tested our server and client with another group server and client. It worked well, we could connect to their server with our client and vice versa. <br>
+        All the messages we sent, went through without trouble.
     </p>
     <h3>State behaviour</h3>
     <p>We use a list to save all the clienthandlers, each clienthandler is its own thread.<br>
         The server is listening for incoming messages, and then notifies the clienthandlers, that then sends the messages to the clients that need it.<br>
-        This means that the clienthandlers is ?sleeping?, and waiting for the server to call notify observers, which then, updates the clienthandlers.<br>
+        This means that the clienthandlers is "looping", and waiting for the server to call notify observers, which then, updates the clienthandlers.<br>
         This way we avoid using many resources, having the clienthandlers listening for messages, all the time, now the clienthandlers only use resources when it updates the clients.
     </p>
 
