@@ -30,7 +30,7 @@
     <h3>Testing</h3>
     <h4>jUnit tests</h4>
     <p>An image of the test results from JUnit<br>
-        <img src="pictures/jUnit.png" class="img-responsive" alt="Picture of jUnit tests"/>
+        <img src="pictures/jUnit.PNG" class="img-responsive" alt="Picture of jUnit tests"/>
         If you wanna run the jUnit test yourself, you might need to add jUnit 4.12 as a library, it is placed in the netbeansproject, in the folder library</p>
     <h4>Testing with another server and client</h4>
     <p>We have tested our server and client with another group server and client. It worked well, we could connect to their server with our client and vice versa. <br>
@@ -42,9 +42,6 @@
         This means that the clienthandlers is "looping", and waiting for the server to call notify observers, which then, updates the clienthandlers.<br>
         This way we avoid using many resources, having the clienthandlers listening for messages, all the time, now the clienthandlers only use resources when it updates the clients.
     </p>
-
-
-
 </div>
 
 <jsp:include page="/includes/footer.jsp"/>
